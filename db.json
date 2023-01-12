@@ -1,9 +1,90 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "lists": [
+    {
+      "id": 1,
+      "title": "빡",
+      "singer": "던말릭",
+      "desc": "수정 해주세요"
+    },
+    {
+      "id": 2,
+      "title": "Real Good Feeling",
+      "desc": "Real Good Feeling",
+      "singer": "On The Larceny"
+    },
+    {
+      "id": 3,
+      "title": "마이웨이",
+      "singer": "저스디스",
+      "desc": "이 양반 발라드하더니 점점 랩이 착해진다"
+    },
+    {
+      "id": 4,
+      "title": "WE ",
+      "singer": "이영지,토이고,제이켠,잠비노",
+      "desc": "위 ~ 위~ 위~ 위~~~ 위 아래위 아래"
+    },
+    {
+      "id": 5,
+      "title": "Chosen 1",
+      "singer": "Blase",
+      "desc": "Css 1시간 하는동안 이것만 들었다!!!"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    {
+      "listid": 1,
+      "id": 2,
+      "comment": "이걸?",
+      "username": "정기2"
+    },
+    {
+      "listid": 2,
+      "id": 3,
+      "comment": "진짜?",
+      "username": "정기3"
+    },
+    {
+      "listid": 2,
+      "id": 4,
+      "comment": "정말?",
+      "username": "정기4"
+    },
+    {
+      "listid": 3,
+      "id": 5,
+      "comment": "즐기자?",
+      "username": "정기5"
+    },
+    {
+      "listid": 3,
+      "id": 6,
+      "comment": "유후?",
+      "username": "정기6"
+    },
+    {
+      "listid": 4,
+      "id": 7,
+      "comment": "즐기자?",
+      "username": "정기5"
+    },
+    {
+      "listid": 4,
+      "id": 8,
+      "comment": "유후?",
+      "username": "정기6"
+    },
+    {
+      "listid": 5,
+      "id": 9,
+      "comment": "즐기자?",
+      "username": "정기5"
+    },
+    {
+      "listid": 5,
+      "id": 10,
+      "comment": "유후?",
+      "username": "정기6"
+    }
+  ]
 }
